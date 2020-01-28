@@ -12,7 +12,7 @@
   </head>
   <body>
   $END$
-  <h1>大家好！</h1>
+  <h1>大家好！hello everone </h1>
   <form action="myservlet" >
     <input type="submit" value="提交到Myservlet">
   </form>

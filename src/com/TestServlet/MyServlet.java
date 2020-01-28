@@ -17,7 +17,6 @@ public class MyServlet implements Servlet {
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
         System.out.println("跳转成功，进入MYServlet");
-
         servletResponse.setContentType("text/html;charset=UTF-8");
         servletResponse.getWriter().write("跳转成功，进入MYServlet");
     }
